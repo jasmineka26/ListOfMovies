@@ -1,0 +1,13 @@
+.movie-table {
+  @apply border-collapse border-spacing-[2px];
+  @apply w-full rounded-lg overflow-hidden text-center select-none;
+}
+
+.movie-table td,
+th {
+  @apply py-1 px-0.5;
+}
+
+.movie-table tr {
+  @apply border;
+}
